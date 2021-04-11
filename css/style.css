@@ -1,0 +1,245 @@
+/*============*/
+/*BASIC SETUP*/
+/*==========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+/*====================*/
+/*REASUABLE COMPONEND*/
+/*==================*/
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===============*/
+/*HEADER SECTION*/
+/*=============*/
+#header {
+    background: url("../img/banner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: #00000073;
+    height: 100vh;
+}
+
+#header .navbar-brand.text-light {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#header .nav-item {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+#header .row .hBold {
+    color: #f8f9fa !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+#header .row .big {
+    font-size: 123px;
+    margin: 0 auto;
+    letter-spacing: 8px;
+}
+
+#header .row a {
+    background: #ffcb00;
+    padding: 10px 70px;
+    font-size: 20px;
+    color: #6c7071;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+#header .row a:hover {
+    background: white !important;
+    border: 3px solid #eac432;
+    box-shadow: inset 0px 0px 30px #eac432;
+    color: #c8a419 !important;
+}
+
+/* .row.text-center.py-5 { */
+    /* text-align: center; */
+/* } */
+
+.uk-sticky-fixed {
+    background: #84762bf2;
+    padding: 0;
+    border-bottom: 3px solid #1fff76;
+}
+
+/*===============*/
+/*BODY SECTION*/
+/*=============*/
+
+#brain {
+    /* margin: 60px 35px; */
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+#brain h3 {
+    border: 5px solid #eac432;
+    padding: 50px 235px;
+}
+
+/*Features section*/
+#featuresSection {
+    margin-top: 0px;
+	display: block;
+}
+
+#featuresSection .row .featuresTitle hr {
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    background: black;
+    transition: 2s;
+}
+
+#featuresSection .row .featuresTitle:hover .featurHr {
+    width: 200px;
+}
+
+#featuresSection .row .featuresTitle p {
+    color: #4b4b4b;
+}
+
+#featuresSection .row .rightfeatures .icon i {
+    font-size: 30px;
+}
+
+#featuresSection .row .rightfeatures .iconText p {
+    color: #4b4b4b;
+}
+
+/*subscribe section*/
+#subscribeSection {
+    background: url(../img/cta-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 40vh;
+}
+
+#subscribeSection .overLay {
+    background: #0000006b;
+    height: 40vh;
+}
+
+#subscribeSection .overLay .row .col a {
+    background: #ffcb00;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #6c7071;
+    display: inline-block;
+    transition: 0.4s;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+#subscribeSection .overLay .row .col a:hover {
+    background: white !important;
+    border: 3px solid #eac432;
+    box-shadow: inset 0px 0px 30px #eac432;
+    color: #c8a419 !important;
+    text-decoration: none;
+}
+
+/*portfolio section*/
+#portfolioSection {
+    margin-top: 50px;
+}
+
+#portfolioSection .row .portfolioTitle .portHr {
+    width: 30px;
+    height: 3px;
+    background: black;
+    transition: 2s;
+}
+
+#portfolioSection .row .portfolioTitle:hover .portHr {
+    width: 240px;
+}
+
+#portfolioSection .row .portfolioTitle p {
+    color: #383838;
+}
+
+/*video section*/
+#videoSection .row .col .videoTitle .videoHr {
+    width: 30px;
+    height: 3px;
+    background: black;
+    transition: 2s;
+}
+
+#videoSection .row .col .videoTitle:hover .videoHr {
+    width: 240px;
+}
+
+/*contact us section*/
+#contactSection {
+    background: white;
+}
+
+#contactSection .row .contactTitle .contactHr {
+    width: 30px;
+    height: 3px;
+    background: black;
+    transition: 2s;
+}
+
+#contactSection .row .contactTitle:hover .contactHr {
+    width: 240px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 450px;
+    width: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 450px;
+    width: 400px;
+}
+
+/*===============*/
+/*FOOTER SECTION*/
+/*=============*/
+footer {
+    background: black;
+}
