@@ -1,2 +1,2 @@
-# Bethany web template
-Click Live link: https://johirulshaky.github.io/Bethany/
+#Bethany web template
+source code download: https://github.com/johirulshaky/bethany/archive/refs/tags/1.0.zip
